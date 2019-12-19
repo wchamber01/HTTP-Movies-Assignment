@@ -1,6 +1,6 @@
 import React from "react";
 
-const AddMovie = () => {
+const UpdateMovie = () => {
   return (
     <div className="addMovie">
       <form>
@@ -11,7 +11,7 @@ const AddMovie = () => {
           id="title"
           type="text"
           placeholder="title"
-          onChange={handleChanges}
+          // onChange={handleChanges}
         />
         <input
           name="director"
@@ -20,7 +20,7 @@ const AddMovie = () => {
           id="director"
           type="text"
           placeholder="director"
-          onChange={handleChanges}
+          // onChange={handleChanges}
         />
         <input
           name="metascore"
@@ -29,7 +29,7 @@ const AddMovie = () => {
           id="metascore"
           type="text"
           placeholder="metascore"
-          onChange={handleChanges}
+          // onChange={handleChanges}
         />
         <input
           name="stars"
@@ -38,11 +38,11 @@ const AddMovie = () => {
           id="stars"
           type="text"
           placeholder="stars"
-          onChange={handleChanges}
+          // onChange={handleChanges}
         />
       </form>
     </div>
   );
 };
 
-export default AddMovie;
+export default UpdateMovie;
