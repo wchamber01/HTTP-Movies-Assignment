@@ -66,6 +66,25 @@ body {
   color: white;
 }
 
+.update-wrapper {
+  position: relative;
+  width: 75%;
+  margin: 1rem auto;
+}
+.update-button {
+  position: absolute;
+  margin-top: 5%;
+  top: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;

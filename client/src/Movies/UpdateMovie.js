@@ -1,4 +1,13 @@
 import React from "react";
+import axios from "axios";
+
+const state = {
+  title: "",
+  director: "",
+  metaScore: 0,
+  actor: "",
+  stars: []
+};
 
 const UpdateMovie = () => {
   return (
